@@ -97,16 +97,15 @@ span.span-accent {
 
 .header__footer {
   box-sizing: border-box;
-  color: #838383;
+
   display: flex;
-  font-weight: 500;
 }
-.header__footer_content_hours {
+.header__footer-content {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
-.header__footer_list {
+.header__footer-list {
   list-style-type: none;
   margin: 0;
   position: absolute;
@@ -119,6 +118,10 @@ span.span-accent {
   text-decoration: none;
 }
 */
+.header__paragraph {
+  font-weight: 500;
+  color: #838383;
+}
 .header__address {
   margin: 0;
   position: absolute;
