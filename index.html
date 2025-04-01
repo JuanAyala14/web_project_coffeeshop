@@ -41,7 +41,7 @@
             </li>
           </ul>
         </nav>
-        <!-- <div class="header__content"> -->
+
         <h1 class="header__title">
           <span class="span-accent">Café de especialidad</span><br />
           en Triple Peaks
@@ -50,7 +50,7 @@
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           para darte energía y motivar tu creatividad.
         </p>
-        <!-- </div> -->
+
         <img
           src="./images/inside_coffee_shop.png"
           alt="Ilustración 'Dentro de la Cafeteria'"
@@ -113,7 +113,63 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="#reservation"></section>
+        <section class="reservation" id="#reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__input_container">
+              <label class="form__label"
+                >Nombre*
+                <input
+                  name="name"
+                  type="text"
+                  class="form__item"
+                  placeholder="Nombre"
+                />
+              </label>
+              <label class="form__label"
+                >Número de comensales *
+                <input
+                  name="number-of-diners"
+                  type="number"
+                  min="1"
+                  max="8"
+                  class="form__item"
+                  placeholder="1-8"
+                />
+              </label>
+              <label class="form__label"
+                >Fecha y hora *
+                <input
+                  name="dinner-date"
+                  type="datetime-local"
+                  class="form__item"
+                />
+              </label>
+              <label class="form__label"
+                >Tu correo electrónico *
+                <input
+                  name="email"
+                  type="email"
+                  class="form__item"
+                  placeholder="email@email.com"
+                />
+              </label>
+              <button type="submit" class="form__button form__item">
+                Reservar una mesa
+              </button>
+              <div class="form__item_checkbox_container">
+                <input
+                  name="checkbox"
+                  type="checkbox"
+                  class="form__item form__item_checkbox"
+                />
+                <label class="form__label" for="checkbox"
+                  >Acepto los términos de uso
+                </label>
+              </div>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

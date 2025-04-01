@@ -52,13 +52,6 @@
   text-decoration: none;
   font-weight: bold;
 }
-/* .header__content {
-
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  flex-direction: column;
-} */
 
 .header__title {
   position: relative;
@@ -66,8 +59,7 @@
   left: 0;
   max-width: 709px;
   margin: 0;
-  /* margin-top: 183px;
-  margin-bottom: 0; */
+
   font-size: 58px;
   line-height: 72px;
   font-weight: 500;
@@ -91,7 +83,7 @@ span.span-accent {
   padding: 0;
   font-size: 20px;
   line-height: 30px;
-  /* margin-top: 28px; */
+
   font-family: "Noto Serif";
 }
 
@@ -120,12 +112,7 @@ span.span-accent {
   bottom: 40px;
   left: 80px;
 }
-/*
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-*/
+
 .header__paragraph {
   font-weight: 500;
   color: #838383;
@@ -185,6 +172,88 @@ span.span-accent {
 }
 
 .reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+.reservation__form {
+  height: 100vh;
+}
+
+.form__input_container {
+  max-width: 384px;
+  margin: auto;
+  border: 0;
+}
+
+.form__label {
+  margin: 32px 0 0;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  font-weight: 500;
+}
+
+.form__item {
+  border-radius: 4px;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__item::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #838383;
+  padding: 15px 20px;
+}
+
+.form__button {
+  height: 60px;
+  max-width: 385px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 32px 0 0;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: opacity 1s;
+  color: white;
+  background-color: #2f80ed;
+  font-family: inherit;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__item_checkbox_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.form__item_checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
 }
 
 .footer {
