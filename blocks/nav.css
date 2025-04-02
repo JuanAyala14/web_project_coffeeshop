@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__links {
+  /* Restablece los estilos predeterminados de list aquí */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 1ms;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}
