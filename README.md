@@ -5,6 +5,9 @@ It is a website for a coffee shop that includes a recipes section, table reserva
 
 In the future, I would like to improve the project by implementing an interactive menu with the different products available at the coffee shop, along with images of the items. I would also add an online ordering section so that users can order their food for pickup or delivery. Lastly, I would include a reviews section featuring photos of people who visit us, with the possibility of receiving a discount code for the store.
 
+# Project link
+https://juanayala14.github.io/web_project_coffeeshop/
+
 
 Cafeteria Colcoffee
 
